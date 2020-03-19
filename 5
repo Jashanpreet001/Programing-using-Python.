@@ -1,0 +1,12 @@
+##Write a program that prints the numbers from 1 to 100. But for multiples of 3, prints "fizz" instead of the nubmer
+## and for the multiples of 5 print "buzz".For numbers which are multples of both 3 and 5, prints "fizzbuzz"
+
+for i in range(1,101):
+    s=str(i)
+    if i%3==0 or i%5==0:
+        s=""
+        if i%3==0:
+           s=s+"Fizz"
+        if i%5==0:
+            s=s+"Buzz"
+    print(s)           
