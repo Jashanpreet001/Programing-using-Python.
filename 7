@@ -1,0 +1,13 @@
+#wap to separate the digits of a three digit number.
+
+num= int (input("Enter a three digit number"))
+
+OnesPlace=num%10
+num=num//10
+
+TensPlace=num%10
+num=num//10
+
+HundredsPlace=num
+
+print("onesplace=",OnesPlace,"TensPlace",TensPlace,"HundredsPlace",HundredsPlace)
